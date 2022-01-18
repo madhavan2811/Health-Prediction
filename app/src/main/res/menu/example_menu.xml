@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itAccounts"
+        android:orderInCategory="100"
+        android:title="Accounts"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itNotifications"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_notify"
+        android:title="Notifications"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/itHistory"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itSettings"
+
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itFeedback"
+        android:orderInCategory="100"
+        android:title="Help / Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itAbout"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itLogout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itExit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"/>
+</menu>
